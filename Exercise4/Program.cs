@@ -8,6 +8,9 @@ namespace Exercise4
         {
             Kid kid = new Kid();
             kid.PrintMessage();
+
+            Kid gamer = new Gamer();
+            gamer.PrintMessage();
         }
     }
 }
