@@ -11,6 +11,9 @@ namespace Exercise4
 
             Kid gamer = new Gamer();
             gamer.PrintMessage();
+
+            Kid bookworm = new Bookworm();
+            bookworm.PrintMessage();
         }
     }
 }

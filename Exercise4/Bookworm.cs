@@ -4,11 +4,11 @@ using System.Text;
 
 namespace Exercise4
 {
-    class Gamer : Kid
+    class Bookworm : Kid
     {
         public override void PrintMessage()
         {
-            Console.WriteLine("This is a message the Gamer child class.");
+            Console.WriteLine("This is a message from the bookworm child class.");
         }
     }
 }
